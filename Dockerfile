@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 
-RUN PWD
+RUN pwd
+RUN ls
 RUN dotnet publish -c Release
 
 RUN PWD
