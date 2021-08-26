@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 
 RUN pwd
-RUN ls
+RUN ls /var/cache/blobs
 RUN dotnet publish -c Release
 
 RUN PWD
